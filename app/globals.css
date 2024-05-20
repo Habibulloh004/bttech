@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+textarea {
+  resize: none;
+}
+
+.intro {
+  background: url("https://www.minesnewsroom.com/sites/default/files/styles/max_width_1560/public/2020-10/solarpanels_0.jpeg?itok=YqBxmk7c") no-repeat center center / cover;
+}
+.section2 {
+  background: url("../public/Section2.png") no-repeat top left / cover;
+}
+.section3 {
+  background: url("../public/Section3.png") no-repeat center center / cover;
+}
+
+.clamp1 {
+  font-size: clamp(1.5rem, 5vw, 2.8rem);
+}
+.clamp2 {
+  font-size: clamp(1.1rem, 5vw, 2rem);
+}
+
+.clamp3 {
+  font-size: clamp(1.1rem, 4vw, 1.3rem);
+}
+.clamp4 {
+  font-size: clamp(10px, 3vw, 1rem);
+}
+.clamp5 {
+  font-size: clamp(8px, 2vw, 0.8rem);
+}
+.clamp5 {
+  font-size: clamp(8px, 2vw, 0.7rem);
+}
+
+.clamp2Half {
+    font-size: clamp(1.1rem, 5vw, 1.5rem);
+  }
+
+.clamp3Half {
+  font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+}
+.clamp4Half {
+  font-size: clamp(0.7rem, 3vw, 0.9rem);
+}
