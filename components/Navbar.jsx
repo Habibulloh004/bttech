@@ -95,7 +95,7 @@ export default function Navbar() {
               style={{ originY: "top", translateX: "-100%", translateY: "30%" }}
               className="flex flex-col gap-2 p-2 rounded-lg bg-white shadow-xl absolute top-[250%] left-[-200%] w-48 overflow-hidden"
             >
-              <Option setOpen={setOpen} href={`/catalog`} text="Каталог" />
+              {/* <Option setOpen={setOpen} href={`/catalog`} text="Каталог" /> */}
               <Option setOpen={setOpen} href={`/services`} text="Услуги" />
               <Option setOpen={setOpen} href={`/about`} text="О нас" />
               <Option
