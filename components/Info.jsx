@@ -21,7 +21,7 @@ import Footer from "./Footer";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
-const Info = ({ children }) => {
+const Info = () => {
   const path = usePathname();
 
   return (
@@ -53,7 +53,7 @@ const Info = ({ children }) => {
               Строим солнечные электростанции для будущего. Присоединяйтесь!
             </motion.p>
           </div>
-          <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 flex flex-col gap-1 sm:gap-3 sm:flex-row">
+          <div className="absolute bottom-[20%] left-1/2 -translate-x-1/2 flex flex-col gap-3 sm:gap-3 sm:flex-row">
             <motion.button
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}

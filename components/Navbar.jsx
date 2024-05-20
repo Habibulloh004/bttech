@@ -12,7 +12,6 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const path = usePathname();
-  console.log(navItems);
   useEffect(() => {
     if (window.innerWidth < 1280) {
       setOpen(false);
