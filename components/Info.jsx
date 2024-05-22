@@ -27,7 +27,7 @@ const Info = () => {
   return (
     <>
       <main
-        className={`mt-10 md:mt-20 section2 h-64 md:h-96 xl:h-[500px] overflow-x-hidden ${
+        className={`mt-10 md:mt-20 section2 h-64 md:h-96 xl:h-[500px]  ${
           path == "/services" || path == "/about" || path == "/catalog"
             ? "hidden"
             : "block"
@@ -84,7 +84,7 @@ const Info = () => {
         </section>
       </main>
       <main
-        className={`mt-10 md:mt-20 text-primary font-medium overflow-x-hidden clamp1 ${
+        className={`mt-10 md:mt-20 text-primary font-medium  clamp1 ${
           path == "/catalog" ? "hidden" : "block"
         }`}
       >
@@ -131,13 +131,13 @@ const Info = () => {
         </section>
       </main>
       <main
-        className={`mt-10 md:mt-20 overflow-x-hidden ${path == "/about" ? "block" : "hidden"}`}
+        className={`mt-10 md:mt-20  ${path == "/about" ? "block" : "hidden"}`}
       >
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex gap-2 lg:gap-5 overflow-x-hidden"
+          className="flex gap-2 lg:gap-5 "
         >
           <Image
             className="w-[35%] aspect-[16/12] rounded-e-[26px]"
@@ -165,7 +165,7 @@ const Info = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="flex gap-2 lg:gap-5 mt-5 overflow-x-hidden"
+          className="flex gap-2 lg:gap-5 mt-5 "
         >
           <Image
             className="w-[35%] aspect-[16/12] rounded-e-[26px]"
@@ -190,7 +190,7 @@ const Info = () => {
         </motion.section>
       </main>
       <main
-        className={`mt-10 md:mt-20 overflow-x-hidden ${path == "/about" ? "block" : "hidden"}`}
+        className={`mt-10 md:mt-20  ${path == "/about" ? "block" : "hidden"}`}
       >
         <section className="w-10/12 mx-auto flex flex-col lg:flex-row">
           <motion.p
@@ -277,7 +277,7 @@ const Info = () => {
         </section>
       </main>
       <div
-        className={`mt-10 md:mt-20 ${path == "/about" ? "hidden" : "block"} overflow-x-hidden`}
+        className={`mt-10 md:mt-20 ${path == "/about" ? "hidden" : "block"} `}
       >
         <Image src={Section3} className="w-full h-full bg-cover" alt="img" />
       </div>
@@ -324,7 +324,7 @@ const Info = () => {
           </div>
         </section>
       </main>
-      <main className="mt-10 md:mt-20 overflow-x-hidden">
+      <main className="mt-10 md:mt-20">
         <section className="mx-auto w-7/12 md:w-10/12 flex flex-col items-center">
           <motion.p
             initial={{ opacity: 0, x: -50 }}
@@ -366,7 +366,7 @@ const Info = () => {
         </section>
       </main>
       <main
-        className={`mt-10 md:mt-20 bg-secondary/5 overflow-x-hidden py-10 ${
+        className={`mt-10 md:mt-20 bg-secondary/5  py-10 ${
           path == "/about" ? "hidden" : "block"
         } `}
       >
@@ -396,7 +396,7 @@ const Info = () => {
           </ul>
         </section>
       </main>
-      <div className="mt-10 md:mt-20 overflow-x-hidden">
+      <div className="mt-10 md:mt-20 ">
         <section className="w-[95%] mx-auto">
           <motion.p
             initial={{ opacity: 0, x: -50 }}
@@ -409,7 +409,7 @@ const Info = () => {
           <Image src={Partners} className="mt-5" alt="partners" />
         </section>
       </div>
-      <main className="mt-10 md:mt-20 bg-secondary/5 py-10 overflow-x-hidden">
+      <main className="mt-10 md:mt-20 bg-secondary/5 py-10 ">
         <section className="w-[95%] mx-auto flex-col items-center hidden">
           <motion.p
             initial={{ opacity: 0, x: -50 }}
