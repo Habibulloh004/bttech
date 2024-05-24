@@ -54,7 +54,7 @@ const Home = () => {
           >
             Применение
           </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-top gap-5 mt-10  w-10/12 md:w-9/12 mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-top gap-5 mt-10 w-[95%] mx-auto">
             {cards.map((item, idx) => (
               <motion.div
                 key={item.id}
@@ -64,8 +64,8 @@ const Home = () => {
                 viewport={{ once: true }}
                 className="bg-white rounded-xl flex flex-col items-center"
               >
-                <span className="img-container">
-                  <Image src={item.img} alt="cards" />
+                <span className="img-container w-full">
+                  <Image src={item.img} className="w-full aspect-[9/11]" alt="cards" />
                 </span>
                 <h3 className="font-semibold clamp3Half mt-5">{item.title}</h3>
                 <p className="mt-3 clamp4Half w-10/12 text-center">

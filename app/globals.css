@@ -21,32 +21,32 @@ textarea {
 }
 
 .clamp1 {
-  font-size: clamp(1.5rem, 5vw, 2.8rem);
+  font-size: clamp(1.6rem, 5vw, 3rem);
 }
 .clamp2 {
-  font-size: clamp(1.1rem, 5vw, 2rem);
+  font-size: clamp(1.1rem, 6vw, 3rem);
 }
 
 .clamp3 {
-  font-size: clamp(1.1rem, 4vw, 1.3rem);
+  font-size: clamp(1.1rem, 4vw, 1.8rem);
 }
 .clamp4 {
-  font-size: clamp(10px, 3vw, 1rem);
+  font-size: clamp(10px, 3vw, 1.3rem);
 }
 .clamp5 {
-  font-size: clamp(8px, 2vw, 0.8rem);
+  font-size: clamp(8px, 2vw, 1rem);
 }
 .clamp5 {
-  font-size: clamp(8px, 2vw, 0.7rem);
+  font-size: clamp(8px, 2vw, .9rem);
 }
 
 .clamp2Half {
-    font-size: clamp(1.1rem, 5vw, 1.5rem);
+    font-size: clamp(1.1rem, 5vw, 1.8rem);
   }
 
 .clamp3Half {
-  font-size: clamp(0.9rem, 3.5vw, 1.1rem);
+  font-size: clamp(0.9rem, 3.5vw, 1.4rem);
 }
 .clamp4Half {
-  font-size: clamp(0.7rem, 3vw, 0.9rem);
+  font-size: clamp(0.7rem, 3vw, 1.2rem);
 }

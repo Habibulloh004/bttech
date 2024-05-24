@@ -39,7 +39,7 @@ const Info = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold text-center clamp2 lg:w-3/12 mx-auto leading-10"
+              className="text-3xl font-bold text-center clamp2 lg:w-1/2 mx-auto leading-tight"
             >
               Солнечная энергия для всех!
             </motion.h2>
@@ -500,7 +500,7 @@ const Info = () => {
               viewport={{ once: true }}
               className="clamp2 font-bold"
             >
-              Наши Контакты
+              Наши <br /> Контакты
             </motion.p>
             <ul className="mt-4 space-y-1 md:space-y-3">
               {contacts.map((item, idx) => {
