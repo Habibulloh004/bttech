@@ -205,7 +205,7 @@ const Info = () => {
           </motion.p>
           <div className="w-full lg:w-1/2">
             <motion.p
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="clamp4Half mt-5"
@@ -213,7 +213,7 @@ const Info = () => {
               Функции
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
               viewport={{ once: true }}
@@ -233,7 +233,7 @@ const Info = () => {
               объекта Преимущества компании  
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4 }}
               viewport={{ once: true }}
@@ -258,7 +258,7 @@ const Info = () => {
               обеспечивает качественную организацию сделки с клиентом.
             </motion.p>
             <motion.p
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.6 }}
               viewport={{ once: true }}
