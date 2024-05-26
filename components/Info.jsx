@@ -389,7 +389,7 @@ const Info = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx / 10 }}
                 viewport={{ once: true }}
-                className="space-y-1 md:space-y-2 lg:space-y-4 pt-12 bg-white h-[200px] md:h-[300px] text-center shadow-lg rounded-2xl p-5"
+                className="space-y-1 md:space-y-2 lg:space-y-4 pt-12 bg-white h-[200px] sm:h-[300px] md:h-[350px] text-center shadow-lg rounded-2xl p-5"
               >
                 <p className="clamp3 font-semibold">{item.title}</p>
                 <p className="clamp4Half">{item.description}</p>
@@ -399,7 +399,7 @@ const Info = () => {
         </section>
       </main>
       <div className="mt-10 md:mt-20 ">
-        <section className="w-[95%] mx-auto">
+        <section className="w-[95%] mx-auto flex flex-col items-center">
           <motion.p
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
