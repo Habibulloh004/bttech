@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { cards, questions } from "@/lib";
 import Image from "next/image";
 import { About } from "@/public";
-import Info from "@/components/Info";
 import Introduction from "@/components/Introduction";
 
 const Home = () => {

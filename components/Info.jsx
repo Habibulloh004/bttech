@@ -20,6 +20,7 @@ import Map from "./shared/Map";
 import Footer from "./Footer";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import FakeSlider from "./shared/FakeSlider/FakeSlider";
 
 const Info = () => {
   const path = usePathname();
@@ -133,7 +134,8 @@ const Info = () => {
       <main
         className={`mt-10 md:mt-20  ${path == "/about" ? "block" : "hidden"}`}
       >
-        <motion.section
+        <FakeSlider />
+        {/* <motion.section
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -187,7 +189,7 @@ const Info = () => {
             src={beu8}
             alt="img"
           />
-        </motion.section>
+        </motion.section> */}
       </main>
       <main
         className={`mt-10 md:mt-20  ${path == "/about" ? "block" : "hidden"}`}
